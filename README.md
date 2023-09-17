@@ -1,13 +1,20 @@
-# Primeiros passos com o aplicativo Create React
-
-Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
+# Teste Front-End Econverse
 
 ## Available Scripts
-
 Para rodar este projeto você precisa ter na sua maquina:
-Axios
-Node
+Node,
+Axios e
+Sass
 
+# Instruções para compilar
+## Instalando dependencias do node
+### `npm install`
+## Instalando axios no projeto
+### `npm install axios`
+## Instalando sass no projeto
+### `npm install node-sass@8.0` 
+no meu caso este é a versão do Sass que funciona na minha maquina, por eu estar usando a versao 18 do node.
+## Iniciar a aplicação
 ### `npm start`
 
 Executa o aplicativo no modo de desenvolvimento.\

@@ -1,0 +1,23 @@
+:root{
+    --rosa-primario: #F71963;
+    --gray: #9F9F9F;
+    --white: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ol, ul {
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6, span, p, button, input, div{
+    font-family: 'Poppins', sans-serif;
+}
+.innerWidth{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+@import "./home.scss";

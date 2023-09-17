@@ -1,0 +1,82 @@
+.AppHeader{
+    .innerWidth{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .appTop{
+            display: flex;
+            align-items: center;
+            gap: 119px;
+            margin: 6px 0 13px;
+            .topInfo{
+                display: flex;
+                align-items: center;
+                gap: 9px;
+                color: #9F9F9F;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+                span{
+                    color: #F71963;
+                    font-family: Poppins;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+        }
+        .appOptions{
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            .logo{
+                margin-right: 95px;
+            }
+            .search{
+                margin-right: 61px;
+            }
+            .iconNav{
+                display: flex;
+                align-items: center;
+                gap: 32px;
+            }
+        }
+        .categorys{
+            width: 1280px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0px 8px 16px 0px rgba(57, 48, 19, 0.12);
+            .categorysContent{
+                display: flex;
+                align-items: center;
+                gap: 91px;
+                .category{
+                    color:#9F9F9F;
+                    text-align: center;
+                    font-family: Poppins;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    transition: all 5s;
+                }:hover{
+                    color: #F71963;
+                    cursor: pointer;
+                }
+                .category:nth-child(6){
+                    color: #F71963;
+                }
+            }
+        }
+    }
+}

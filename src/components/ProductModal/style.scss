@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  width: 769px;
+  height: 299.257px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h2{
+    color:#041E50;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 1px;
+    margin-bottom: 21px;
+  }
+  .priceModal{
+    color: var(--Primria, #041E50);
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: 1px;
+    margin-bottom: 17px;
+  }
+  .descriptionModal{
+    color: #222;
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150.5%;
+    letter-spacing: 0.5px;
+    margin-bottom: 13px;
+  }
+  .seeMore{
+    color: #041E50;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; 
+    letter-spacing: 0.6px;
+    margin-bottom: 15px;
+  }
+  .addMore{
+    display: flex;
+    gap: 20px;
+    border: 1px solid #041E50;
+    border-radius: 4px;
+    width: fit-content;
+    padding: 8px 10px;
+    color: #041E50;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 27px;
+  } 
+}
+
+.buttonModal{
+  margin-top: -250px;
+  background-color: transparent;
+  color: #707070;
+  font-size: 20px;
+}

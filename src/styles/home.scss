@@ -1,0 +1,66 @@
+
+#buttonBuy{
+    width: 245px;
+    height: 44px;
+    padding: 14px 64px 11px 66px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+#buttonCheckOut{
+    width: 131px;
+    height: 48px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+#buttonNewsletter{
+    width: 62px;
+    height: 45px;
+    padding: 13px 20px 12px 21px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    border-radius: 4px;
+}
+.cards{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.productsCardTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 88px;
+    hr{
+        width: 360px;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            margin: 0px 34px;
+            color: #F71963;
+            font-family: Poppins;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        p{
+            color:#3F3F40;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+}

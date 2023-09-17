@@ -1,0 +1,66 @@
+.cardProdutos{
+    width: 100%;
+    color: #fff;
+    .conteudoProdutos{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .produtos{
+            width: 574px;
+            height: 350px;
+            margin-right: 10px;
+            margin-left: 35px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .card{
+                height: 350px;
+                .produto{
+                    width: 574px;
+                    height: 350px;
+                    border-radius: 20px;
+                    background-image: url(../../assets/image/parceiros.png);
+                    padding: 114px 40px 40px;
+                    h2{
+                        color:#FFF;
+                        font-family: Poppins;
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        margin-bottom: 8px;
+                        position: relative;
+                        z-index: 1;
+                    }
+                    p{
+                        width: 181px;
+                        color:#FFF;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-bottom: 32px;
+                        position: relative;
+                        z-index: 1;
+                    }
+                    div{
+                        width: 574px;
+                        height: 284px;
+                        border-radius: 0px 0px 20px 20px;
+                        opacity: 0.8;
+                        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 85.04%);
+                        position: relative;
+                        top: -195px;
+                        left: -40px;
+                    }
+                    button{
+                        position: relative;
+                        z-index: 5;
+                    }
+                }
+            }
+        }
+    }
+}
